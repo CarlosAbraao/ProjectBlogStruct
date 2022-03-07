@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>@br Desenvolvimento</title>
 
     <!-- CSS DA PAGINA BOOTSTRAP -->
@@ -38,9 +38,17 @@
          <!--FINAL BREADCRUMB BOOTSTRAP-->
 
          <!--começo CARDS BOOTSTRAP-->
-         <div class="card">
+
+         <div class="card shadow-rm bg-white rounded" style="margin-top:20px;" th:each="post: ${posts}"> <!-- para cada post vou criar um card-->
              <div class="card-body">
-                 Conteúdo da postagem
+                 <p class="card-subtitle mb-2 text-muted" style="font-size: 0.8 rem;">
+                        <span th:text="${post.author}"></span> <!--// para inserir o autor-->
+                        <span th:text="${post.postDate}"></span><!--// para inserir a data-->
+
+                 </p>
+
+                 <a href="" style="text-decoration: none; "><h4 class="card-title" style="font-weight: bold; color:black; padding-top:5px;"><span th:text="${post.title}"></span></h4></a>
+                 <p class="card-text"><span th:utext="${#strings.abbreviate(post.content, 400)}"></span></p><!--inserindo o texto e limitando a quantidade de informação em 400 caracteres-->
              </div>
          </div>
          <!--FINAL CARDS BOOTSTRAP-->
