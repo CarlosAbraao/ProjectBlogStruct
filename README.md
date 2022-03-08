@@ -15,7 +15,7 @@
 [Retornando informações do banco](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/df68ea3cfd8f165d0ea423949fbdd525b080f8e1)
 
 
-### atualização do layout:
+### atualização do layout após as informações do banco serem retornadas:
 ![imagem2](https://user-images.githubusercontent.com/71728180/157145996-5c242db1-ec51-4293-b5b9-d12dfa6e1460.png)
 
 
