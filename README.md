@@ -10,3 +10,13 @@
 ### Até o momento temos o seguinte layout:
 
 ![imagem1](https://user-images.githubusercontent.com/71728180/157127436-3d129d2c-debd-4d51-bcba-cb55e51557dc.png)
+
+
+[Retornando informações do banco](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/df68ea3cfd8f165d0ea423949fbdd525b080f8e1)
+
+
+### atualização do layout:
+![imagem2](https://user-images.githubusercontent.com/71728180/157145996-5c242db1-ec51-4293-b5b9-d12dfa6e1460.png)
+
+
+[Metodo que vai pegar as informaçõe do banco pelo id](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/cc1885b97aa933f183f27265d577913032f97be3)
