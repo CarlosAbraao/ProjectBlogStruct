@@ -20,3 +20,6 @@
 
 
 [Metodo que vai pegar as informaçõe do banco pelo id](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/cc1885b97aa933f183f27265d577913032f97be3)
+[Criando pagina que mostra o conteúdo detalhado](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/cc1885b97aa933f183f27265d577913032f97be3)
+
+![paginapost](https://user-images.githubusercontent.com/71728180/158064866-0501479b-4ceb-4e55-bdd3-b7395d7232fd.png)
