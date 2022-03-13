@@ -19,7 +19,8 @@
 ![imagem2](https://user-images.githubusercontent.com/71728180/157145996-5c242db1-ec51-4293-b5b9-d12dfa6e1460.png)
 
 
-[Metodo que vai pegar as informaçõe do banco pelo id](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/cc1885b97aa933f183f27265d577913032f97be3)
-[Criando pagina que mostra o conteúdo detalhado](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/cc1885b97aa933f183f27265d577913032f97be3)
+[Metodo que vai pegar as informaçõe do banco pelo id](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/cc1885b97aa933f183f27265d577913032f97be3)\
+[Criando pagina que mostra o conteúdo detalhado](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/b0064bb54356875a006663f9710036293cace87f)
 
+### atualização do layout após a criação da página de conteúdo:
 ![paginapost](https://user-images.githubusercontent.com/71728180/158064866-0501479b-4ceb-4e55-bdd3-b7395d7232fd.png)
