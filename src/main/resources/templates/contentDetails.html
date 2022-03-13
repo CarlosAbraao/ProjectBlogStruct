@@ -7,53 +7,56 @@
     <!-- CSS DA PAGINA BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-
+    <!--ICONES GOOGLE-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 
 
 </head>
 <body>
-<H1>OLA MUNDO</H1>
-<!--INICIO NAVBAR BOOTSTRAP-->
-<!--<header>
-<nav class="navbar navbar-dark"  style="background-color: #1cc88a;"> &lt;!&ndash;bg-primary&ndash;&gt;
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-          <strong>@Br Desenvolvimento</strong>
-        </a>
-    </div>
-</nav>
-</header>
-&lt;!&ndash;FINAL NAVBAR BOOTSTRAP&ndash;&gt;
 
-<section>
+<!--INICIO NAVBAR BOOTSTRAP cabeçalho-->
+<header>
+    <nav class="navbar navbar-dark"  style="background-color: #1cc88a;"> <!--bg-primary-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                <strong>@Br Desenvolvimento</strong>
+            </a>
+        </div>
+    </nav>
+</header>
+<!--FINAL NAVBAR BOOTSTRAP cabeçalho-->
+
+<main>
 
      <div class="container" style="width:60% ; padding-bottom:30px;">
-         &lt;!&ndash;começo BREADCRUMB BOOTSTRAP&ndash;&gt;
+         <!--começo BREADCRUMB BOOTSTRAP-->
          <nav aria-label="breadcrumb">
              <ol class="breadcrumb">
-                 <li class="breadcrumb-item active" aria-current="page">Postagens</li>
+                 <li class="breadcrumb-item " aria-current="page"><a href="/v1posts">Postagens</a></li>
+                 <li class="breadcrumb-item active" aria-current="page">Postagens Conteúdo</li>
              </ol>
          </nav>
-         &lt;!&ndash;FINAL BREADCRUMB BOOTSTRAP&ndash;&gt;
+         <!--FINAL BREADCRUMB BOOTSTRAP-->
 
-         &lt;!&ndash;começo CARDS BOOTSTRAP&ndash;&gt;
+         <article>
+             <h1 class="card-title" style="font-weight: bold; margin-bottom: 20px"><span th:text="${contentDetails.title}"></span></h1>
+                                                                                   <!-- <span th:text="${post.title}"></span>-->
+             <p class="card-subtitle mb-2 text-muted">
+                 <i class="material-icons">person_outline</i>
+                 <span th:text="${contentDetails.author}"></span>
+                 <br>
+                 <i class="material-icons">date_range</i>
+                 <span th:text="${contentDetails.postDate}"></span>
+             </p>
 
-         <div class="card shadow-rm bg-white rounded" style="margin-top:20px;" th:each="post: ${posts}"> &lt;!&ndash; para cada post vou criar um card&ndash;&gt;
-             <div class="card-body">
-                 <p class="card-subtitle mb-2 text-muted" style="font-size: 0.8 rem;">
-                        <span th:text="${post.author}"></span> &lt;!&ndash;// para inserir o autor&ndash;&gt;
-                        <span th:text="${post.postDate}"></span>&lt;!&ndash;// para inserir a data&ndash;&gt;
-
-                 </p>
-
-                 <a href="" style="text-decoration: none; "><h4 class="card-title" style="font-weight: bold; color:black; padding-top:5px;"><span th:text="${post.title}"></span></h4></a>
-                 <p class="card-text"><span th:utext="${#strings.abbreviate(post.content, 400)}"></span></p>&lt;!&ndash;inserindo o texto e limitando a quantidade de informação em 400 caracteres&ndash;&gt;
-             </div>
-         </div>
-         &lt;!&ndash;FINAL CARDS BOOTSTRAP&ndash;&gt;
+             <section >
+                 <p class="card-text" style="margin-top: 40px;"> <span th:utext="${contentDetails.content}"></span></p>
+             </section>
+         </article>
 
      </div>
-</section>-->
+</main>
 </body>
 </html>
