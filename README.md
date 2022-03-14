@@ -26,15 +26,15 @@
 ![paginapost](https://user-images.githubusercontent.com/71728180/158064866-0501479b-4ceb-4e55-bdd3-b7395d7232fd.png)
 
 
-[As postagens serão salvas através do formulário](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/d07b6bebf7ac59dac13dc1e70f1ef390a6beda52)\
+[As postagens serão salvas através do formulário](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/d07b6bebf7ac59dac13dc1e70f1ef390a6beda52)
 ### atualização do layout após a criação da página formulário:
 ![paginasemsummer1](https://user-images.githubusercontent.com/71728180/158205532-e167557b-04ae-4233-848f-1eb2b7e55421.png)
 
 
-[O formulário passa a exibir o erro caso o usuário cadastre as informações de forma errada](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/d07b6bebf7ac59dac13dc1e70f1ef390a6beda52)\
+[O formulário passa a exibir o erro caso o usuário cadastre as informações de forma errada](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/d07b6bebf7ac59dac13dc1e70f1ef390a6beda52)
 ### atualização do layout após a criação da página formulário com a menssagem de erro:
 ![paginasemsummer2](https://user-images.githubusercontent.com/71728180/158205657-52f69e85-dfbf-4d44-b0e1-2fb28d4250f8.png)
 
-[O summernote vai possibilitar a formatação do texto direto no formulario](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/d07b6bebf7ac59dac13dc1e70f1ef390a6beda52)\
+[O summernote vai possibilitar a formatação do texto direto no formulario](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/d07b6bebf7ac59dac13dc1e70f1ef390a6beda52)
 ### atualização do layout após a adição do summernote:
 ![pagina do for com summernote](https://user-images.githubusercontent.com/71728180/158203845-9ead4a16-b976-4418-a120-9e4181f99f8c.png)
