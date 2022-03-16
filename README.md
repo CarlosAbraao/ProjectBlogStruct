@@ -38,3 +38,7 @@
 [O summernote vai possibilitar a formatação do texto direto no formulario](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/d07b6bebf7ac59dac13dc1e70f1ef390a6beda52)
 ### atualização do layout após a adição do summernote:
 ![pagina do for com summernote](https://user-images.githubusercontent.com/71728180/158203845-9ead4a16-b976-4418-a120-9e4181f99f8c.png)
+
+
+
+[Foi adicionado um autenticação para ir até a página de adição de postagens VIA form](https://github.com/CarlosAbraao/ProjectBlogStruct/commit/0cc98a4819fdfd7402e574267aab4f9b974dac6a)
